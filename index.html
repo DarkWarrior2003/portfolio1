@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/25c065fdb5.js" crossorigin="anonymous"></script>
+    <title>Souhardya Deb</title>
+    <link rel = "icon" href = "icon.png" type = "image/x-icon" >
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav id="navbar">
+
+            <img src="Dark-removebg-preview.png" class="logo">
+
+
+            <ul id="sidemenu">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+
+        <div id="intro">
+            <div class="header">
+
+                <div class="text1">
+                    <p class="uitext">UI/UX Designer</p>
+                    <h1 class="glow">Hi, I am Souhardya From India</h1>
+                    <div class="so-icons">
+                        <a href="https://www.linkedin.com/in/souhardya-deb-921578254/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/dark_warrior20222/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/DarkWarrior2003" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <div id="about">
+            <div class="row">
+                <div class="humanpng">
+                    <img src="human.png" alt="">
+                </div>
+
+                <div class="aboutinfo">
+                    <h1 class="subtitle glow">About Me</h1>
+                    <p class="aboutinfo">Hello My name is Souhardya Deb. I am Currently Pursuing BTech in Electronics
+                        and Communication Engineering From Jalpaiguri Government Engineering College. I am an
+                        enthusiastic developer interested in many coding languages like C++, Java, C, Html, CSS</p>
+                    <div class="aboutcontain">
+                        <div class="coloum1">
+                            <div class="tab-titles">
+                                <div class="tab-links active-link">Skills</div>
+                            </div>
+                            <div class="tab-contents">
+
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Programing Language</span><br>C++, C, Java, Html, CSS</li>
+                                <li><span>App Development</span><br>Building Android/ios apps</li>
+
+                            </div>
+                        </div>
+
+                        <div class="coloum2">
+                            <div class="tab-links tab-titles">Education</div>
+
+                            <div class="tab-contents">
+
+                                <li><span>Btech</span><br>Jalpaiguri Govt Engg College</li>
+                                <li><span>Class 12</span><br>Julien Day School</li>
+                                <li><span>Class 10</span><br>Julien Day School</li>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p class="contactinfo"><i class="fa-solid fa-envelope"></i> contact@devdark.cloud</p>
+                        <p class="contactinfo"><i class="fa-solid fa-phone"></i> +91 8777423388</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/souhardya-deb-921578254/ " target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/dark_warrior20222/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/DarkWarrior2003" target="_blank"><i
+                                    class="fa-brands fa-github"></i>
+                            </a>
+                            <br>
+                            <a href="Resume-Souhardya-Deb.pdf" download class="btn">Download CV</a>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7138.39359523328!2d88.703754!3d26.545945!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e47bb5ee262d43%3A0xb035d22e1fc303c2!2sEngineering%20College%20More!5e0!3m2!1sen!2sin!4v1692840884821!5m2!1sen!2sin" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn" >Submit</button>
+                        </form>
+                        <br>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    <div class="copyright"><i class="fa-sharp fa-regular fa-copyright"></i> <a>Design & Built by Souhardya Deb</a></div>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px"
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxR7pTAIrJhGmPoMPQ4y0J1bCX0S-hB1pUh9KkSQGMhS-s8Cze5o9uINXagcCLNDaoA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script>
+        var navbar = document.getElementById("navbar");
+        var sidemenu = document.getElementById("sidemenu");
+
+        window.onscroll = function () {
+            if (window.pageYOffset >= sidemenu.offsetTop) {
+                navbar.classList.add("sticky");
+            }
+            // else {
+            //     navbar.classList.remove("sticky");
+            // }
+        }
+    </script>
+
+</body>
+
+</html>
